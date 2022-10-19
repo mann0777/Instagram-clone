@@ -129,7 +129,7 @@ body{
 }
 
 .model__group{
-  margin: 7px 0;
+  margin: 10px 0;
 }
 
 .model__input{
@@ -141,3 +141,24 @@ body{
   border-radius: 3px;
 
 }
+
+.btn{
+  outline: none;
+  border: none;
+  color: #fff;
+  height: 40px;
+  padding: 0 13px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-smart{
+  width: 100%;
+  background: #f83a63;
+}
+
+.model__group span{
+  font-size: 13px;
+  cursor: pointer;
+}
+
