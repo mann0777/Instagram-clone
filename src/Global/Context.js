@@ -6,8 +6,12 @@ const Context = (props) => {
     const openModel=()=>{
         setModel(true);
     };
+
+    const closeModel=()=>{
+      setModel(false);
+    };
   return (
-    <ContextProvider.Provider value={{model, openModel}}>
+    <ContextProvider.Provider value={{model, openModel, closeModel}}>
     {props.children}
     </ContextProvider.Provider>
 
